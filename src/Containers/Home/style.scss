@@ -1,0 +1,56 @@
+.home{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    &__text-wrapper{
+        text-align: center;
+        justify-items: center;
+        display: flex;
+
+        h1{
+            margin-top: 20%;
+            color: var(--selected-theme-main-color);
+            font-weight: 400;
+            font-size: 7rem;
+            line-height: 10rem;
+            position: relative;
+            font-family: "Inconsolata",consolas,monospace;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typeanime 2.5s steps(30,end);
+        }
+    }
+}
+
+@media only screen and (max-width : 550px) {
+    .home__text-wrapper h1{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
+
+@media only screen and (min-width : 550px) and (max-width : 768px) {
+    .home__text-wrapper h1{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+}
+@media only screen and (min-width : 768px) and (max-width : 990px) {
+    .home__text-wrapper h1{
+        font-size: 5rem;
+        line-height: 7rem;
+    }
+}
+
+@keyframes typeanime {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
