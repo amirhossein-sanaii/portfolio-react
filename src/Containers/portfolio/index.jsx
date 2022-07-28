@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../../Component/Header'
+import { BsInfoCircleFill } from 'react-icons/bs'
+
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <section>
+      <Header textHeader='Portfolio' icon={<BsInfoCircleFill size={40}/>}/>
+    </section>
   )
 }
 

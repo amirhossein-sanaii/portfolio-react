@@ -7,18 +7,18 @@ export const navbarMenu = [
         labale : "ABOUT ME",
         to : '/about'
     },
-    {
-        labale : "PORTFOLIO",
-        to : '/portfolio'
-    },
+    // {
+    //     labale : "PORTFOLIO",
+    //     to : '/portfolio'
+    // },
     {
         labale : "SKILLS",
         to : '/skills'
     },
-    {
-        labale : "RESUME",
-        to : '/resume'
-    },
+    // {
+    //     labale : "RESUME",
+    //     to : '/resume'
+    // },
     {
         labale : "CONTACT",
         to : '/contact'

@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { navbarMenu } from './config'
+
+// icon
 import { FaReact, FaBars } from 'react-icons/fa'
 import { HiX } from 'react-icons/hi'
-import { navbarMenu } from './config'
+// scss
 import './style.scss'
 
 const Navbar = () => {
@@ -11,6 +14,7 @@ const Navbar = () => {
     const handelClick = () => {
         setclick(!click)
     }
+    
     return (
         <div>
             <nav className='navbar'>
