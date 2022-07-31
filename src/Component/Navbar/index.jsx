@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { navbarMenu } from './config'
 
 // icon
@@ -14,22 +14,25 @@ const Navbar = () => {
     const handelClick = () => {
         setclick(!click)
     }
+    const handelClickclose = () =>{
+        setclick(false)
+    }
     
     return (
         <div>
             <nav className='navbar'>
                 <div className='navbar__container'>
-                    <Link to={"/"} className='navbar__container__logo'>
+                    <NavLink to={"/"} className='navbar__container__logo'>
                         <FaReact size={30} />
-                    </Link>
+                    </NavLink>
                     <ul className={click ? 'navbar__container__menu active' : 'navbar__container__menu'}>
                         {
                             navbarMenu.map((item, index) => {
                                 return (
-                                    <li key={index} className='navbar__container__menu__item'>
-                                        <Link to={item.to} className='navbar__container__menu__item__links'>
+                                    <li onClick={handelClickclose} key={index} className='navbar__container__menu__item'>
+                                        <NavLink className={({ isActive }) => (isActive ? 'navbar__container__menu__item__links__active' : 'navbar__container__menu__item__links')} to={item.to}>
                                             {item.labale}
-                                        </Link>
+                                        </NavLink>
                                     </li>
                                 )
                             })

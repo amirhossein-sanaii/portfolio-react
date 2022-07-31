@@ -40,11 +40,13 @@ const Skills = () => {
                             <p className='power-item__paragraf'>{item.skillname}</p>
                             <Line
                               percent={item.power}
-                              strokeWidth="2"
+                              strokeWidth="3"
                               strokeColor='var(--selected-theme-main-color)'
                               strokeLinecap='square'
-                              trailWidth='2'
-                            />
+                              trailWidth='3'
+                            >
+                            </Line>
+                            <span className='darsad'>{item.power}%</span>
                           </div>
                         </Animate>
                       )

@@ -102,3 +102,11 @@
             color: var(--selected-theme-main-color);
         }
 }
+
+
+.navbar__container__menu__item__links__active{
+    color: var(--selected-theme-main-color);
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    text-shadow: 0 0 30px #fff, 0 0 30px #fff,0 0 10px var(--selected-theme-main-color);
+}

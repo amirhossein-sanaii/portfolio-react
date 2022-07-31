@@ -24,8 +24,10 @@
 html{
   font-size: 62.5%;
   height: 100%;
+  margin: auto;
 }
 
 body{
   background-color: var(--selected-theme-background-color);
 }
+

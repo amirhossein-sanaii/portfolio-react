@@ -5,7 +5,7 @@ export const particlesConfig = {
         "value": "#000000"
       },
       "image": "",
-      "position": "",
+      "position": "fixed",
       "repeat": "",
       "size": "",
       "opacity": 1
@@ -31,8 +31,8 @@ export const particlesConfig = {
       "detectsOn": "window",
       "events": {
         "onClick": {
-          "enable": true,
-          "mode": "push"
+          "enable": false,
+          "mode": ""
         },
         "onDiv": {
           "selectors": [],

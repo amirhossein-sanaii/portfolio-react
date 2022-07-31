@@ -1,8 +1,13 @@
 .App {
 
     &__navbar{
-        position: absolute;
         width: 100%;
-        top: 0;
+        max-width: 1080px;
+        margin: auto;
+    }
+
+    &__container{
+        max-width: 1080px;
+        margin: auto;
     }
 }

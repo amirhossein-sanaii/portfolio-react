@@ -3,11 +3,11 @@ export const skillsdata = [
         labale : "front End",
         data :[
             {
-                skillname : "html",
+                skillname : "html 5",
                 power: 90
             },
             {
-                skillname : "css",
+                skillname : "css 3",
                 power: 70
             },
             {
@@ -15,7 +15,7 @@ export const skillsdata = [
                 power: 70
             },
             {
-                skillname : "Bootstrap",
+                skillname : "Bootstrap 5",
                 power: 60
             },
         ] 
@@ -24,15 +24,15 @@ export const skillsdata = [
         labale : "front end basics",
         data :[
             {
-                skillname : "JavaScript",
+                skillname : "JavaScript Es6",
                 power: 80
             },
             {
-                skillname : "React",
+                skillname : "React 18",
                 power: 60
             },
             {
-                skillname : "Redux",
+                skillname : "React-Redux",
                 power: 30
             },
             {
@@ -50,7 +50,7 @@ export const skillsdata = [
                 power: 60
             },
             {
-                skillname : "Git hub",
+                skillname : "Github",
                 power: 50
             },
             {
@@ -58,7 +58,7 @@ export const skillsdata = [
                 power: 40
             },
             {
-                skillname : "Word prees",
+                skillname : "Wordprees",
                 power: 60
             },
         ] 

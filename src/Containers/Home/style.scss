@@ -12,7 +12,7 @@
         display: flex;
 
         h1{
-            margin-top: 20%;
+            margin-top: 10%;
             color: var(--selected-theme-main-color);
             font-weight: 400;
             font-size: 7rem;
@@ -35,7 +35,7 @@
     z-index: 1;
 
     &__home__div{
-        padding-top: 25px;
+        padding-top: 15px;
     }
 
     &__home__button{
