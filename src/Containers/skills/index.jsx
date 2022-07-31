@@ -40,10 +40,10 @@ const Skills = () => {
                             <p className='power-item__paragraf'>{item.skillname}</p>
                             <Line
                               percent={item.power}
-                              strokeWidth="3"
+                              strokeWidth="4"
                               strokeColor='var(--selected-theme-main-color)'
                               strokeLinecap='square'
-                              trailWidth='3'
+                              trailWidth='4'
                             >
                             </Line>
                             <span className='darsad'>{item.power}%</span>
