@@ -36,7 +36,7 @@ export const skillsdata = [
                 power: 30
             },
             {
-                skillname : "Hock",
+                skillname : "React-Hock",
                 power: 30
             },
         ] 
@@ -58,8 +58,12 @@ export const skillsdata = [
                 power: 40
             },
             {
+                skillname : "test E2E (testcafe & cypress)",
+                power: 40
+            },
+            {
                 skillname : "Wordprees",
-                power: 60
+                power: 30
             },
         ] 
     },

@@ -7,7 +7,6 @@ import { FaReact } from 'react-icons/fa'
 import { DiCss3 } from 'react-icons/di'
 import { BsGithub } from 'react-icons/bs'
 
-
 // data information
 import { personalData } from './utile'
 
@@ -35,9 +34,9 @@ const About = () => {
               transform: 'translatex(0px)'
             }}
           >
-            <h3 className="developer">Front End</h3>
+            <h3 className="developer">Me </h3>
             <p>
-              The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time.
+            I am Amir Hossein. 25 years old. A young developer (Front End) with more than six months of experience in this field, I love coding, teamwork and learning new technologies, I have the ability to self-study and time management skills. Has the ability to solve problems, related search. And in the end I'm always learning
             </p>
           </Animate>
           <Animate

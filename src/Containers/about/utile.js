@@ -1,6 +1,6 @@
 export const personalData =[
     {
-        labale : 'Name',
+        labale : 'Full Name',
         value : 'Amirhossein Sanaii'
     },
     {
@@ -12,7 +12,15 @@ export const personalData =[
         value : 'Iran - Tehran'
     },
     {
+        labale : 'Phone number',
+        value : '+989223912726'
+    },
+    {
         labale : 'Email',
-        value : 'Sn.amirhossein@Gmail.com'
+        value : 'amirhussein.sanaii@desphilman.com'
+    },
+    {
+        labale : 'Favorites',
+        value : 'Game & gym'
     }
 ]
